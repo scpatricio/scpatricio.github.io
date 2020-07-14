@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Silvio Cabral"
   avatar           : "images/bio_photo.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "statistician"
+  bio              : "statistician & data scientist"
   location         : "Belo Horizonte, Brazil"
   email            : #"silviocabralpatricio@msn.com"
   links:

@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Who am I ?"
-    url: /who_i_am/
+    url: /about/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
