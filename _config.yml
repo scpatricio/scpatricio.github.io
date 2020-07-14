@@ -95,9 +95,9 @@ analytics:
 author:
   name             : "Silvio Cabral Patricio"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "So, I'm Silvio. I'm a statistician, data scientist and Ph.D. student, with skills in statistical learning, probability, and statistical modeling. My main projects are below on this page, and involve problems with the classification and segmentation of images and music, using statistical and machine learning techniques. I am currently focused on using data science to answer demographic and actuarial questions. "
+  bio              : "Hi all !"
   location         : "Belo Horizonte, Brazil"
-  email            : "silviocabralpatricio@msn.com"
+  email            : #"silviocabralpatricio@msn.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -116,7 +116,7 @@ author:
       url: "https://github.com/scpatricio"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/scpatr"
+      # url: "https://instagram.com/scpatr"
 
 # Site Footer
 footer:
