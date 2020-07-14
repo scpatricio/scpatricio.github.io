@@ -131,7 +131,7 @@ footer:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/scpatricio"
     - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin"
       url: "http://linkedin.com/in/scpatr/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
