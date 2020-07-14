@@ -3,7 +3,7 @@ main:
   - title: "who am I ?"
     url: /about/
    - title: "publications"
-     url: /publications/
+    url: /publications/
   # - title: "projects"
   #   url: /projects/
   # - title: "blog"
