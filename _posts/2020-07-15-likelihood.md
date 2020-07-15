@@ -19,4 +19,7 @@ $$
 L(\theta | \mathbf{x} ) = f(\mathbf{x}, \theta)
 $$
 
-is called a likelihood function.
+is called a likelihood function. When $$ \mathbf{X} $$ is independently and identically distributed, we can write
+$$
+L(\theta | \mathbf{x} ) = \mathbf{\prod}_{i=1}^n f(\mathbf{x}_{i}, \theta).
+$$
