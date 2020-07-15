@@ -114,8 +114,8 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/scpatricio"
-    - label: "Google Scholar"
-      icon: "fab fa-fw fa-google-scholar"
+    - label: "Scholar"
+      icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=01lldJoAAAAJ&hl=en&oi=ao"
 
 # Site Footer
