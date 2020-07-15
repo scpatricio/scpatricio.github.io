@@ -46,4 +46,11 @@ Let's take an example. Suppose that $$ X \sim N(a, b) $$, with $$ a = 5 $$ and $
 <img src="{{ site.url }}{{ site.baseurl }}/images/likelihood/lig_like.jpeg" alt="log-likelihood function" class="full">
 
 
+<figure>
+  <img src="../../images/likelihood/lig_like.jpeg" alt="">
+  <figcaption><p>Figure caption goes here.</p></figcaption>
+</figure>
+
+
+
 that has the maximum point $$ \hat{\theta} = (4.97, 2.08) $$. This maximum point is called the maximum likelihood estimate, and this value is the most plausible for $$ \theta $$ for this data.
