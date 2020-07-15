@@ -4,7 +4,7 @@ date: 2020-07-15
 tags: [statistic, likelihood]
 header:
   image: "/images/likelihood/head.jpeg"
-excerpt: "statistic, likelihood"
+excerpt: "what is it?"
 mathjax: "true"
 ---
 
@@ -40,10 +40,10 @@ so it is more likely that the sample we actually observed occurred if $$ \theta 
 
 Let's take an example. Suppose that $$ X \sim N(a, b) $$, with $$ a = 5 $$ and $$ b = 2 $$. If we look at the log-likelihood function for from $$ \theta = (a, b) $$, we get the image below
 
-![alt]({{ site.url }}{{ site.baseurl }}/images/likelihood/lig_like.jpeg)
+![alt]({{ site.url }}{{ site.baseurl }}/images/likelihood/lig_like.jpeg){: .full}
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/likelihood/lig_like.jpeg" alt="log-likelihood function">
+<img src="{{ site.url }}{{ site.baseurl }}/images/likelihood/lig_like.jpeg" alt="log-likelihood function" class="full">
 
 
 that has the maximum point $$ \hat{\theta} = (4.97, 2.08) $$. This maximum point is called the maximum likelihood estimate, and this value is the most plausible for $$ \theta $$ for this data.
