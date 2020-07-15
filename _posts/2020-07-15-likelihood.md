@@ -43,3 +43,7 @@ Let's take an example. Suppose that $$ X \sim N(a, b) $$, with $$ a = 5 $$ and $
 <img src="{{ site.url }}{{ site.baseurl }}/images/likelihood/lig_like.png" alt="log-likelihood function" class="full">
 
 that has the maximum point $$ \hat{\theta} = (4.97, 2.08) $$. This maximum point is called the maximum likelihood estimate, and this value is the most plausible for $$ \theta $$ for this data.
+
+Well, to sum it all up in one line, the purpose of this post was to tell you that the likelihood function is a function of the parameter and not the data, and I hope I managed to make you understand that.
+
+I see ya in the next post, or on [twitter](http://twitter.com/scpatricio){:target="_blank" rel="noopener"}
