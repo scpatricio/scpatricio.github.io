@@ -14,6 +14,7 @@ But the purpose of this post is not to talk about Fisher, but to explain what a 
 So, the likelihood function is a function that is normally used to summarize the data. This function carries a lot of information about the data, which is why we normally make the inference using it (Fisher's idea). But let's move on to a more formal definition of the likelihood function:
 
 Let $$f(\mathbf{x}, \theta) $$ the the joint pdf of a random sample $$ \mathbf{X} = (X_1, \dots, X_n) $$. So, considering that we observed $$ \mathbf{X} =\mathbf{x}  $$ , the function of $$ \theta $$ defined by
+
 $$
 L(\theta | \mathbf{x} ) = f(\mathbf{x}, \theta)
 $$
