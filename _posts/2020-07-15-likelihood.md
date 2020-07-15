@@ -33,4 +33,4 @@ $$
 L(\theta_1 | \mathbf{x} ) > L(\theta_2 | \mathbf{x} )
 $$
 
-so it is more likely that the sample we actually observed occurred if $$ \theta = \theta_1 $$, than if $$ \theta = \theta_1 $$, which can be interpreted as saying that $$ \theta_1 $ $ is a more plausible value for the true value of $$ \theta $$ than $$ \theta_2 $$.
+so it is more likely that the sample we actually observed occurred if $$ \theta = \theta_1 $$, than if $$ \theta = \theta_1 $$, which can be interpreted as saying that $$ \theta_1 $$ is a more plausible value for the true value of $$ \theta $$ than $$ \theta_2 $$.
