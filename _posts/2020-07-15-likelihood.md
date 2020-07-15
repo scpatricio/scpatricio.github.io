@@ -40,14 +40,14 @@ so it is more likely that the sample we actually observed occurred if $$ \theta 
 
 Let's take an example. Suppose that $$ X \sim N(a, b) $$, with $$ a = 5 $$ and $$ b = 2 $$. If we look at the log-likelihood function for from $$ \theta = (a, b) $$, we get the image below
 
-![alt]({{ site.url }}{{ site.baseurl }}/images/likelihood/lig_like.jpeg){: .full}
+![alt]({{ site.url }}{{ site.baseurl }}/images/likelihood/head.jpeg){: .full}
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/likelihood/lig_like.jpeg" alt="log-likelihood function" class="full">
+<img src="{{ site.url }}{{ site.baseurl }}/images/likelihood/head.jpeg" alt="log-likelihood function" class="full">
 
 
 <figure>
-  <img src="../../images/likelihood/lig_like.jpeg" alt="">
+  <img src="../../images/likelihood/head.jpeg" alt="">
   <figcaption><p>Figure caption goes here.</p></figcaption>
 </figure>
 
