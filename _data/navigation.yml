@@ -6,6 +6,8 @@ main:
     url: /publications/
   - title: "education"
     url: /education/
+  - title: "rn00bs"
+    url: "https://www.rn00bs.com.br"
   - title: "CV"
     url: "/cv/ResumeOnePage.pdf"
   # - title: "projects"
