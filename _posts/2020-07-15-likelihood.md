@@ -35,10 +35,8 @@ $$
 
 so it is more likely that the sample we actually observed occurred if $$ \theta = \theta_1 $$, than if $$ \theta = \theta_1 $$, which can be interpreted as saying that $$ \theta_1 $$ is a more plausible value for the true value of $$ \theta $$ than $$ \theta_2 $$. We can have the same conclusion if we use the logarithm of the likelihood function (log-likelihood function).
 
-Vamos à um exemplo. Suponha que $$ X \sim N(a, b) $$, com $$ a = 5 $$ e $$ b = 2 $$. Portanto, a função
+#Vamos à um exemplo. Suponha que $$ X \sim N(a, b) $$, com $$ a = 5 $$ e $$ b = 2 $$. Portanto, a função
 
 
 
-
-![alt]({{ site.url }}{{ site.baseurl }}/images/likelihood/lig_like.jpeg)
-{: .full}
+<img src="{{ site.url }}{{ site.baseurl }}/images/likelihood/lig_like.jpeg" alt="">
