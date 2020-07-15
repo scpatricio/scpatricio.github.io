@@ -3,8 +3,6 @@ title: "publications"
 permalink: /publications/
 ---
 
-# Scholarly Publications
-## Articles
   - CASTELLARES, F.; **PATRICIO, S. C.**; LEMONTE, A; QUEIROZ, B. L. . [On closed-form ex- pressions to Gompertz–Makeham life expectancy](https://doi.org/10.1016/j.tpb.2020.04.005){:target="_blank" rel="noopener"}. _Theoretical Population Biology_(2020)
 
   - **PATRICIO, S. C.** ; PANARO, R. V. ; LIMA, A. S. ; SILVA, P. V. . [Change Point Estimation in Segmented Regression Model Using Rstan: An Application to Exercise Physiology Data](http://periodicos.uff.br/anaisdoser/article/view/29038){:target="_blank" rel="noopener"}. In: Anais do IV Seminário Internacional de Estatística com R, v. 4, ISSN: 2526- 7299, 2019.
@@ -17,7 +15,6 @@ permalink: /publications/
 
   - **PATRICIO, S. C.** ; REISEN, V. A. . [Estimation in replicated processes with real series applications](http://portais4.ufes.br/posgrad/anais_jornada_ic/desc.php?&id=3833){:target="_blank" rel="noopener"}. In: Anais da Jornada de Iniciação Científica, v. 3, ISSN: 2357-7746, 2012.
 
-## Poster Presentation
 
-# Awards
+### Awards
 [Data Battle Itaú](https://app.shawee.io/@scpatr){:target="_blank" rel="noopener"} (Brazil) - 70% of surgical procedures would not need to be performed. Salus proposes a decision-making aid system for managers of public hospitals regarding the prioritization and choice of breast cancer treatments.

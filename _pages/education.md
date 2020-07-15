@@ -1,6 +1,8 @@
 ---
 title: "education"
 permalink: /education/
+header:
+  image: "/images/degree.jpeg"
 ---
 
 ### PhD Student
