@@ -14,7 +14,7 @@ Fisher was a great example of this, this guy was a genius who lived until the mi
 
 But the purpose of this post is not to talk about Fisher, but to explain what a likelihood function is and what it represents. I've been in academia since 2012, and I always realize that there are still a lot of people who don't know what a likelihood function is, or what it represents. So the idea of this post is to clarify that. So come with me and I'll explain!
 
-So, the likelihood function is a function that is normally used to summarize the data. This function carries a lot of information about the data, which is why we normally make the inference using it (Fisher's idea). But let's move on to a more formal definition of the likelihood function:
+So, the likelihood function is a function that is normally used to summarize the data. This function carries a lot of information about it, which is why we normally make the inference using it (Fisher's idea). But let's move on to a more formal definition of the likelihood function:
 
 Let $$f(\mathbf{x}, \theta) $$ the the joint pdf of a random sample $$ \mathbf{X} = (X_1, \dots, X_n) $$. So, considering that we observed $$ \mathbf{X} =\mathbf{x}  $$ , the function of $$ \theta $$ defined by
 
@@ -36,9 +36,9 @@ $$
 L(\theta_1 | \mathbf{x} ) > L(\theta_2 | \mathbf{x} )
 $$
 
-so it is more likely that the sample we actually observed occurred if $$ \theta = \theta_1 $$, than if $$ \theta = \theta_1 $$, which can be interpreted as saying that $$ \theta_1 $$ is a more plausible value for the true value of $$ \theta $$ than $$ \theta_2 $$. We can have the same conclusion if we use the logarithm of the likelihood function (log-likelihood function). For this reason, we look for likelihood estimates, as we look for the value that is the most plausible for that dataset.
+so it is more likely that the sample we actually observed occurred if $$ \theta = \theta_1 $$, than if $$ \theta = \theta_2 $$, which can be interpreted as saying that $$ \theta_1 $$ is a more plausible value for the true value of $$ \theta $$ than $$ \theta_2 $$. We can have the same conclusion if we use the logarithm of the likelihood function (log-likelihood function). For this reason, we look for likelihood estimates, as we look for the value that is the most plausible for that dataset.
 
-Let's take an example. Suppose that $$ X \sim N(a, b) $$, with $$ a = 5 $$ and $$ b = 2 $$. If we look at the log-likelihood function for from $$ \theta = (a, b) $$, we get the image below
+Let's take an example. Suppose that $$ X \sim N(a, b) $$, with $$ a = 5 $$ and $$ b = 2 $$. If we look at the log-likelihood function for from $$ \theta = (a, b) $$ and assume that it is unknown, we get the image below
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/likelihood/lig_like.png" alt="log-likelihood function" class="full">
 
@@ -46,4 +46,4 @@ that has the maximum point $$ \hat{\theta} = (4.97, 2.08) $$. This maximum point
 
 Well, to sum it all up in one line, the purpose of this post was to tell you that the likelihood function is a function of the parameter and not the data, and I hope I managed to make you understand that.
 
-I see ya in the next post, or on [twitter](http://twitter.com/scpatricio){:target="_blank" rel="noopener"}
+I see ya in the next post, or on [twitter](http://twitter.com/scpatricio){:target="_blank" rel="noopener"}.
