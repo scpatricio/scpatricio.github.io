@@ -4,7 +4,7 @@ permalink: /education/
 ---
 
 ### PhD Student
-I am currently a Ph.D. student at the [European Doctoral School of Demography](https://www.eds-demography.org){:target="_blank" rel="noopener"}, at the [Center for Demographic Studies](https://ced.uab.cat/en/){:target="_blank" rel="noopener"} at Universitat Autònoma de Barcelona (Spain).
+I am currently a Ph.D. student at the [European Doctoral School of Demography](https://www.eds-demography.org){:target = "_blank" rel = "noopener"}, at the [Center for Demographic Studies](https://ced.uab.cat/en/){:target="_blank" rel="noopener"} at Universitat Autònoma de Barcelona (Spain).
 
 ### Master's degree
 I have a Masters in [Statistics](http://www.est.ufmg.br/portal/pos-graduacao/english-version){:target="_blank" rel="noopener"} from the Federal University of Minas Gerais (Brazil).
