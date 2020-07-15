@@ -1,6 +1,8 @@
 ---
 title: "who am I ?"
 permalink: /about/
+header:
+  image: "/images/who_am_i.jpeg"
 ---
 
 So, I'm Silvio, statistician, data scientist and Ph.D. student, with skills in statistical learning, probability, and statistical modeling. My main projects are on this website, and involve problems with the classification and segmentation of images and music, using statistical and machine learning techniques.
