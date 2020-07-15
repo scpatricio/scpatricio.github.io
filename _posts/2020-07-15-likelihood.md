@@ -33,11 +33,10 @@ $$
 L(\theta_1 | \mathbf{x} ) > L(\theta_2 | \mathbf{x} )
 $$
 
-so it is more likely that the sample we actually observed occurred if $$ \theta = \theta_1 $$, than if $$ \theta = \theta_1 $$, which can be interpreted as saying that $$ \theta_1 $$ is a more plausible value for the true value of $$ \theta $$ than $$ \theta_2 $$. We can have the same conclusion if we use the logarithm of the likelihood function (log-likelihood function).
+so it is more likely that the sample we actually observed occurred if $$ \theta = \theta_1 $$, than if $$ \theta = \theta_1 $$, which can be interpreted as saying that $$ \theta_1 $$ is a more plausible value for the true value of $$ \theta $$ than $$ \theta_2 $$. We can have the same conclusion if we use the logarithm of the likelihood function (log-likelihood function). For this reason, we look for likelihood estimates, as we look for the value that is the most plausible for that dataset.
 
-Vamos à um exemplo. Suponha que $$ X \sim N(a, b) $$, com $$ a = 5 $$ e $$ b = 2 $$. Portanto, a função
-
-
-
+Let's take an example. Suppose that $$ X \sim N(a, b) $$, with $$ a = 5 $$ and $$ b = 2 $$. If we look at the log-likelihood function for from $$ \theta = (a, b) $$, we get the image below
 
 ![alt]({{ site.url }}{{ site.baseurl }}/images/likelihood/lig_like.jpeg)
+
+that has the maximum point $$ \hat{\theta} = (4.97, 2.08) $$. This maximum point is called the maximum likelihood estimate, and this value is the most plausible for $$ \theta $$ for this data.
