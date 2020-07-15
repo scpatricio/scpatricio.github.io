@@ -4,4 +4,11 @@ author: "Silvio C. Patricio"
 date: "7/15/2020"
 output: html_document
 ---
-teste
+
+
+Seja $f(\mathbf{x}, \theta) $ a pfd conjunta de uma amostra aleatória $$ \mathbf{X} = (X_1, \dots, X_n) $$. Então, considerando que observamos $$ \mathbf{X} =\mathbf{x}  $$ , a função de $$ \theta $$ definida por
+$$
+L(\theta | \mathbf{x} ) = f(\mathbf{x}, \theta)
+$$
+
+é chamada de função de verossimilhança

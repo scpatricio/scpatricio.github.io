@@ -10,6 +10,11 @@ Fisher was a great example of this, this guy was a genius who lived until the mi
 
 But the purpose of this post is not to talk about Fisher, but to explain what a likelihood function is and what it represents. I've been in academia since 2012, and I always realize that there are still a lot of people who don't know what a likelihood function is, or what it represents. So the idea of this post is to clarify that. So come with me and I'll explain!
 
-Então, a verossimilhança é uma função que é normalmente utilizada para resumir os dados. Essa função carrega muita informação sobre os dados, por isso que normalmente fazemos a inferência utilizando-a (ideia de Fisher). Mas vamos para um definição mais formal sobre a função de verossimilhança:
+So, the likelihood function is a function that is normally used to summarize the data. This function carries a lot of information about the data, which is why we normally make the inference using it (Fisher's idea). But let's move on to a more formal definition of the likelihood function:
 
-Seja $$f(\mathbf{x}) $$
+Let $$f(\mathbf{x}, \theta) $$ the the joint pdf of a random sample $$ \mathbf{X} = (X_1, \dots, X_n) $$. So, considering that we observed $$ \mathbf{X} =\mathbf{x}  $$ , the function of $$ \theta $$ defined by
+$$
+L(\theta | \mathbf{x} ) = f(\mathbf{x}, \theta)
+$$
+
+is called a likelihood function.
