@@ -1,8 +1,3 @@
----
-title: "what is a likelihood function?"
-date: 2020-07-15
-# tags: [statistic, likelihood]
----
 This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you
 execute code within the notebook, the results appear beneath the code.
 
@@ -11,7 +6,7 @@ or by placing your cursor inside it and pressing *Cmd+Shift+Enter*.
 
     plot(cars)
 
-![](teste/likelihood_files/figure-markdown_strict/unnamed-chunk-1-1.png)
+![](likelihood_files/figure-markdown_strict/unnamed-chunk-1-1.png)
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or
 by pressing *Cmd+Option+I*.
