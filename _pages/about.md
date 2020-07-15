@@ -11,7 +11,7 @@ So, I'm Silvio, statistician, data scientist and Ph.D. student, with skills in s
 I decided to create this site to divulge a little of what I've been doing in the academic environment, and also some personal projects in data science. I'll also post some thoughts, data analysis tips, theorems and important definitions in data science, and more that I find interesting to share here.
 
 ### and what do I do for a living?
-I'm currently a doctoral student. I have been conducting research together with professors Fredy Castellares and Artur Lemonte, both from Brazilian universities, and have made some contributions to theoretical statistical modeling. But I'm not restricted to theoretical statistical research, and my research interests go far beyond that.
+I'm a doctoral student. I have been conducting research together with professors Fredy Castellares and Artur Lemonte, both from Brazilian universities, and have made some contributions to theoretical statistical modeling. But I'm not restricted to theoretical statistical research, and my research interests go far beyond that.
 
 ### one more thing
 I'm currently focused on using data science to answer demographic and actuarial questions. And as these questions never end, I hope this site is always under construction.
