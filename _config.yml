@@ -20,7 +20,7 @@ title                    : "scpatricio"
 title_separator          : "-"
 subtitle                 : "Silvio Cabral Patricio"
 name                     : "Silvio Cabral Patricio"
-description              : "Welcome to my page."
+description              : "another guy who talks about statistics and data science"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Silvio Cabral"
   avatar           : "images/bio_photo.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "statistician & data scientist"
+  bio              : "spreader of statistics & data science"
   location         : "Belo Horizonte, Brazil"
   email            : #"silviocabralpatricio@msn.com"
   links:
