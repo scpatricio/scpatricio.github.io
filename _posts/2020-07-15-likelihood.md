@@ -42,6 +42,7 @@ Let's take an example. Suppose that $$ X \sim N(a, b) $$, with $$ a = 5 $$ and $
 
 ![alt]({{ site.url }}{{ site.baseurl }}/images/likelihood/lig_like.jpeg)
 
+
 <img src="{{ site.url }}{{ site.baseurl }}/images/likelihood/lig_like.jpeg" alt="log-likelihood function">
 
 
