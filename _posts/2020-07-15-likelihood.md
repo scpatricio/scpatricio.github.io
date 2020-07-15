@@ -24,3 +24,13 @@ is called a likelihood function. When $$ \mathbf{X} $$ is independently and iden
 $$
 L(\theta | \mathbf{x} ) = \mathbf{\prod}_{i=1}^n f(x_{i}, \theta).
 $$
+
+My main point here is that, although the likelihood function uses the same mathematical form as pfd, the likelihood function is a function of $$ \theta $$, not $$ \mathbf{x} $$, and this is what most confuses people. In summary, the likelihood function is not a probability function and does not measure probabilities either, the likelihood function measures how realistic it is $$ \theta $$ be the true parameter of the pfd of $$ \mathbf{X} $$.
+
+If we compare the likelihood function at two points (say $$ \theta_1 $$ and $$ \theta_2 $$) and find that
+
+$$
+L(\theta_1 | \mathbf{x} ) > L(\theta_2 | \mathbf{x} )
+$$
+
+so it is more likely that the sample we actually observed occurred if $$ \theta = \theta_1 $$, than if $$ \theta = \theta_1 $$, which can be interpreted as saying that $$ \theta_1 $ $ is a more plausible value for the true value of $$ \theta $$ than $$ \theta_2 $$.
