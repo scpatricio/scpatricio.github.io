@@ -2,6 +2,7 @@
 title: "what is a likelihood function?"
 date: 2020-07-15
 tags: [statistic, likelihood]
+mathjax: "true"
 ---
 
 It is no secret that statistics is a science widely used in several areas as a tool for data analysis. But this science is not only used, it is also developed in numerous areas, such as engineering, computer science, psychology, demography, social sciences and several others.
