@@ -4,7 +4,7 @@ date: 2020-07-15
 tags: [statistic, likelihood]
 header:
   image: "/images/likelihood/head.jpeg"
-excerpt: "what is it?"
+excerpt: "do you really know what is a likelihood function? I’ll  try to explain to you in up to 3 minutes"
 mathjax: "true"
 ---
 
