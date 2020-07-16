@@ -47,3 +47,9 @@ that has the maximum point $$ \hat{\theta} = (4.97, 2.08) $$. This maximum point
 Well, to sum it all up in one line, the purpose of this post was to tell you that the likelihood function is a function of the parameter and not the data, and I hope I managed to make you understand that.
 
 I see ya in the next post, or on [twitter](http://twitter.com/scpatricio){:target="_blank" rel="noopener"}.
+
+### References
+
+> Bolfarine, Heleno, and Mônica Carneiro Sandoval. Introdução à inferência estatística. Vol. 2. SBM, 2001. NBR 6023
+
+> Casella, George, and Roger L. Berger. Statistical inference. Vol. 2. Pacific Grove, CA: Duxbury, 2002. NBR 6023
