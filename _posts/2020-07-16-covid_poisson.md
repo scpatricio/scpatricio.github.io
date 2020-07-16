@@ -5,7 +5,6 @@ tags: [statistic, modeling]
 header:
   image: "/images/likelihood/head.jpeg"
 excerpt: "what is it?"
-mathjax: "true"
 ---
 
 Se voce ainda nao percebeu, nós estamos em meio a uma pandemia (até
