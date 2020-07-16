@@ -1,3 +1,13 @@
+---
+title: "test"
+date: 2020-07-16
+#tags: [statistic, likelihood]
+header:
+  image: "/images/likelihood/head.jpeg"
+excerpt: ";ld;adljshfa @ minutes"
+#mathjax: "true"
+---
+
 Untitled
 ================
 
