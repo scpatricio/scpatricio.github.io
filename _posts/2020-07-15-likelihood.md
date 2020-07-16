@@ -53,3 +53,5 @@ I see ya in the next post, or on [twitter](http://twitter.com/scpatricio){:targe
 > Bolfarine, Heleno, and Mônica Carneiro Sandoval. Introdução à inferência estatística. Vol. 2. SBM, 2001.
 
 > Casella, George, and Roger L. Berger. Statistical inference. Vol. 2. Pacific Grove, CA: Duxbury, 2002.
+
+> DUDEWICZ, Edward J.; MISHRA, Satya. Modern mathematical statistics. John Wiley & Sons, Inc., 1988.
