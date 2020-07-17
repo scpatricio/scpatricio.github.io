@@ -1,7 +1,7 @@
 ---
 title: "Hello World"
 author: "Jacob Fiksel"
-date: "07/16/2020"
+date: 2020-07-16
 output:
   html_document:
     keep_md: true
@@ -35,6 +35,6 @@ summary(cars)
 
 You can also embed plots, for example:
 
-![]({{site_url}}/img/blog_images/teste_files/figure-html/pressure-1.png)<!-- -->
+![]({{site_url}}/images/blog_images/teste_files/figure-html/pressure-1.png)<!-- -->
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
