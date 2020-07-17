@@ -27,7 +27,49 @@ summary(cars)
 You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
-plot(pressure)
+library(plotly)
+
+a = 5
+b = 2
+
+set.seed(1)
+x_ = rnorm(1000, a, sd = b)
+
+hist(x_)
+
+L = function(theta){
+  a = theta[1]
+  b = theta[2]
+  return(sum(dnorm(x_, a, b, log = T)))
+}
+
+eps = .5
+
+x <- seq(mean(x_)-eps, mean(x_)+eps, length.out = 100)
+y <-  seq(sd(x_)-eps, sd(x_)+eps, length.out = 100)
+z = matrix(NA, 100, 100)
+for(i in 1:length(x)){
+  for(j in 1:length(y)){
+    z[i,j] = L(c(x[i], y[j]))
+  }
+}
+
+z[abs(z) == Inf] = NA
+
+a = x
+b = y
+log_lik = z
+
+fig <- plot_ly(x = ~a, y = ~b, z = ~log_lik)  %>% 
+  layout(
+    scene = list(
+      xaxis = list(title = "a"),
+      yaxis = list(title = "b"),
+      zaxis = list(title = "log-likelihood function")
+    )) %>%
+  add_surface() 
+
+fig 
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
