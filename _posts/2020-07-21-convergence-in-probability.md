@@ -30,4 +30,16 @@ $$
 
 When we talk about convergence of random variables, the idea behind this convergence is the same behind the previous one, except for one small detail: a random variable is a function that takes elements of the sample space ($$\Omega$$) to the real numbers ($$\mathbb{R}$$), it is not a fixed value . For this reason we need a measure in order to calculate the limit, and for that we use the probability measure ($$\mathbb{P}$$), which takes the elements of the sample space to values in the range $$[0.1]$$.
 
-Now let me show you the formal definition of convergence in probability. 
+Now let me show you the formal definition of convergence in probability. A sequence of random variables $$Y_n$$ is said to converge to a constant $$c$$ _in probability_ if for ever $$ \epsilon >0 $$,
+
+$$
+\lim_{n \rightarrow \infty} \mathbb{P}(|Y_n - c|<\epsilon) = 1,
+$$
+
+or equivalently,
+
+$$
+\lim_{n \rightarrow \infty} \mathbb{P}(|Y_n - c|\geq \epsilon) = 0.
+$$
+
+As notation we use $$ Y_n \xrightarrow{\mathbb{P}} c $$ to say that $$ Y_n $$ converges in probability to a constant $$ c $$.
