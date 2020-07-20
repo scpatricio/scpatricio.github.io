@@ -52,4 +52,8 @@ $$
 \lim_{n \rightarrow \infty} \mathbb{E}(Y_n-c)^2 = 0,
 $$
 
-because given $$ \epsilon > 0 $$, $$ \mathbb{P}(|Y_n - c|\geq \epsilon) \leq \frac{1}{\epsilon^2} \mathbb{E}(Y_n-c)^2.$$
+because given $$ \epsilon > 0 $$, 
+
+$$
+\mathbb{P}(|Y_n - c|\geq \epsilon) \leq \frac{1}{\epsilon^2} \mathbb{E}(Y_n-c)^2.
+$$
