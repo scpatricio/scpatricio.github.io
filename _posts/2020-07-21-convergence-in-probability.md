@@ -20,4 +20,12 @@ $$
 
 This law is widely used, and very simple to understand. But why this convergence is happening is perhaps not so obvious. To understand it is necessary to know a little about two types of stochastic convergences: convergence in probability and almost-certain convergence (or in law), but in this post I will restrict myself only to convergence in probability.
 
-So in this post, I'm going to explain what convergence in probability is (the symbol $$ \xrightarrow{\mathbb{P}} $$) and how it works, in the simplest possible way. So here we go:
+So in this post, I'm going to explain what convergence in probability is and how it works, in the simplest possible way. So here we go:
+
+If you already had a calculus course, you have certainly heard about the limit of a sequence of real numbers ($$ a_n $$), for example, if $$a_n = 1/n $$, so the sequence $$ a_n \rightarrow 0$$, because
+
+$$
+\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} \frac{1}{n} = 0.
+$$
+
+When we talk about convergence of random variables, the idea behind this convergence is the same behind the previous one, except for one small detail: a random variable is a function that takes elements of the sample space ($$\Omega$$) to the real numbers ($$\mathbb{R}$$), it is not a fixed value . For this reason, we need a measure in order to calculate the limit, and as a measure we use the probability measure, which takes the elements of the sample space to values in $$[0.1]$$.
