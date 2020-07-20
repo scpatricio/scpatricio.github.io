@@ -18,7 +18,7 @@ $$
 \bar{X} \xrightarrow{\mathbb{P}} \mu
 $$
 
-This law is widely used, and very simple to understand. But why this convergence is happening is perhaps not so obvious. To understand it is necessary to know a little about two types of stochastic convergences: convergence in probability and almost-certain convergence (or in law), but in this post I will restrict myself only to convergence in probability.
+This law is widely used, and very simple to understand. But why this convergence is happening is perhaps not so obvious. To understand it is necessary to know a little about two types of stochastic convergences: convergence in probability and convergence in law, but in this post I will restrict myself only to convergence in probability.
 
 So in this post, I'm going to explain what convergence in probability is and how it works, in the simplest possible way. So here we go:
 
