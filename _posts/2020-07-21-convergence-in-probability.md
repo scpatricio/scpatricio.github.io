@@ -10,7 +10,7 @@ mathjax: "true"
 
 A few weeks ago I presented the paper _Comparing support vector machines with Gaussian kernels to radial basis function classifiers_ in a webinar on Support Vector Machine (SVM). In this paper, to guarantee some necessary conditions in the theory of statistical learning, Schölkopf made use of the law of large numbers and also of some properties derived from the convergence in probability. I remember that when I commented on this, I realized that the public was not familiar with the statistical theory, and that it might be necessary to present it.
 
-So if you've had minimal contact with statistics (or probability theory) you've heard someone comment on the law of large numbers. But if you’ve never heard of this law, I’ll tell you:
+So if you've had minimal contact with statistics or probability theory, you've heard someone comment on the law of large numbers. But if you’ve never heard of this law, I’ll tell you:
 
 Let $$X_1, \dots, X_n$$ be a sequence of independent and identically distributed random variables with mean $$ \mathbb{E}(X_i) = \mu $$ and variance $$\mathbb{VAR}(X_i) = \sigma^2 < \infty$$. So the sample average $$ \bar{X} = (X_1 + \cdots + X_n)/n $$ satisfies
 
@@ -44,7 +44,7 @@ $$
 
 As notation we use $$ Y_n \xrightarrow{\mathbb{P}} c $$ to say that $$ Y_n $$ converges in probability to a constant $$ c $$. So, roughly speaking, when we say that $$ Y_n $$ converges in probability to a constant $$ c $$, we mean that when $$n$$ is large, the probability is high that $$Y_n$$ be close to $$c$$.
 
-There are several tricks to demonstrate that a random variable sequence converges into probability, and [Chebyshev inequality](https://en.wikipedia.org/wiki/Chebyshev%27s_inequality){:target="_blank" rel="noopener"} is often useful. But I will not go into many technical details, because that is not the purpose of this post.
+There are several tricks to demonstrate that a random variable sequence converges in probability to a constant, and [Chebyshev inequality](https://en.wikipedia.org/wiki/Chebyshev%27s_inequality){:target="_blank" rel="noopener"} is often useful. But I will not go into many technical details, because that is not the purpose of this post.
 
 All of this was to show you what is happening behind the scenes when we say that the sample average converges to the theoretical average. And when you read that an average converges to a constant, you understand that behind the scenes there may be a convergence in probability.
 
@@ -60,4 +60,4 @@ I see ya in the next post, or on [twitter](http://twitter.com/scpatricio){:targe
 
 > Schölkopf, Bernhard, et al. "Comparing support vector machines with Gaussian kernels to radial basis function classifiers." IEEE transactions on Signal Processing 45.11 (1997): 2758-2765.
 
-> Shiryaev, Albert Nikolaevich, and Alʹbert N. Širjaev. Probability. Vol. 95. Springer Verlag, 1984.
+> Shiryaev, Albert N. Probability-1. Springer, 1984.
