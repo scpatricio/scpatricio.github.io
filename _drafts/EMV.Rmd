@@ -5,16 +5,37 @@ date: "7/20/2020"
 output: html_document
 ---
 
-Se voce já teve o mínimo de contato com estatística, ou probabilidade, já ouviu alguém comentar sobre a lei dos grandes números. Mas se voce nunca ouviu falar sobre essa lei, eu te conto: 
+Há algumas semanas apresentei o paper _Comparing support vector machines with Gaussian kernels to radial basis function classifiers_ em um webinar sobre Support Vector Machine (SVM). Nesse paper, para garantir algumas condições necessárias na teoria de aprendizado estatístico, Schölkopf fez o uso da lei dos grandes números e também de algumas propriedades derivada da convergencia em probabilidade. E quando comentei isso, percebi que o público não tinha muita familiariadade com esse tipo de teoria estatística, e que talvez fosse necessários apresenta-la.
 
-...
-descrever a lei dos grandes numeros
-...
+Então se voce já teve o mínimo de contato com estatística, ou probabilidade, já ouviu alguém comentar sobre a lei dos grandes números. Mas se voce nunca ouviu falar sobre essa lei, eu te conto: 
+
+Seja $$X_1, \dots, X_n$$ uma sequencia de variáveis aleatórias idependentes e identicamente distribídas com média $$ \mathbb{E}(X_i) = \mu $$ e variâcia $$\mathbb{VAR}(X_i) = \sigma^2 < \infty$$. Então a média amostral $$ \bar{X} = (X_1 + \cdots + X_n)/n $$ satisfaz
+
+$$
+\bar{X} \xrightarrow{\mathbb{P}} \mu
+$$
 
 Essa lei é amplamente utilizada, e bem simples de entender. Mas o porquê dessa convergência acontecer talvez não seja tão óbvio assim. Para entender, é preciso conhecer um pouquinho sobre dois topos de convergencias estocásticas: a convergencia em probabilidade e a convergencia quase-certa (ou em lei), mas neste post vou me restringir apenas a convergencia em probabilidade.
 
-Há algumas semanas apresentei o paper _Comparing support vector machines with Gaussian kernels to radial basis function classifiers_ em um webinar sobre Support Vector Machine (SVM). Nesse paper, para garantir algumas condições necessárias na teoria de aprendizado estatístico, Schölkopf fez o uso da lei dos grandes números e também de algumas propriedades derivada da convergencia em probabilidade. E quando comentei isso, percebi que opúblico não tinha muita femiliariadade com esse tipo de teoria, e que talvez fosse necessários apresenta-la.
-
 Então neste post, eu vou te explicar o que é a convergencia em probabilidade e como ela funciona, da maneira mais simples possível. Então vamos lá:
+
+Se voce já teve um curso de cálculo, com certeza ouviu falar sobre limite de uma sequencia de números reais ($$a_n$$), como por exemplo: 
+
+Se $$a_n = 1/n $$, então a sequência $$ a_n \rightarrow 0$$, pois
+
+$$
+\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} \frac{1}{n} = 0.
+$$
+
+Quando falamos de convergência de variáveis aleatórias a ideia por de trás dessa convergência é a mesma por trás da anterior, exceto por um pequeno detalhe: uma variável aleatória é uma função que leva elementos do espaço amostral para os números reais, e não um valor fixo. Por esse motivo, precisamos de uma medida para podermos calcular o limite, e como medida usamos a medida de probabilidade.
+
+
+
+
+
+
+
+
+
 
 
