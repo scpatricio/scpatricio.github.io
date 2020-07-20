@@ -20,7 +20,7 @@ $$
 
 This law is widely used, and very simple to understand. But why this convergence is happening is perhaps not so obvious. To understand it is necessary to know a little about two types of stochastic convergences: convergence in probability and convergence in law, but in this post I will restrict myself only to convergence in probability.
 
-So in this post, I'm going to explain what convergence in probability is and how it works, in the simplest possible way. So here we go:
+In this post, I'm going to explain what convergence in probability is and how it works, in the simplest possible way. So here we go:
 
 If you already had a calculus course, you have certainly heard about the limit of a sequence of real numbers ($$ a_n $$), for example, if $$a_n = 1/n $$, so the sequence $$ a_n \rightarrow 0$$, because
 
@@ -44,16 +44,20 @@ $$
 
 As notation we use $$ Y_n \xrightarrow{\mathbb{P}} c $$ to say that $$ Y_n $$ converges in probability to a constant $$ c $$. So, roughly speaking, when we say that $$ Y_n $$ converges in probability to a constant $$ c $$, we mean that when $$n$$ is large, the probability is high that $$Y_n$$ be close to $$c$$.
 
-A sufficient condition for $$ Y_n \xrightarrow{\mathbb{P}} c $$ is that
-
-$$
-\lim_{n \rightarrow \infty} \mathbb{E}(Y_n-c)^2 = 0,
-$$
-
-because given $$\epsilon > 0$$,
-
-$$
-\mathbb{P}(|Y_n - c|\geq \epsilon) \leq \frac{1}{\epsilon^2} \mathbb{E}(Y_n-c)^2.
-$$
+There are several tricks to demonstrate that a random variable sequence converges into probability, and [Chebyshev inequality](https://en.wikipedia.org/wiki/Chebyshev%27s_inequality){:target="_blank" rel="noopener"} is often useful. But I will not go into many technical details, because that is not the purpose of this post.
 
 All of this was to show you what is happening behind the scenes when we say that the sample average converges to the theoretical average. And when you read that an average converges to a constant, you understand that behind the scenes there may be a convergence in probability.
+
+I see ya in the next post, or on [twitter](http://twitter.com/scpatricio){:target="_blank" rel="noopener"}.
+
+### References
+
+> James, Barry R. Probabilidade: um curso em nível intermediário. No. 519.2. 1996.
+
+> Jiang, Jiming. Large sample techniques for statistics. Springer Science & Business Media, 2010.
+
+> Lehmann, Erich Leo. Elements of large-sample theory. Springer Science & Business Media, 2004.
+
+> Schölkopf, Bernhard, et al. "Comparing support vector machines with Gaussian kernels to radial basis function classifiers." IEEE transactions on Signal Processing 45.11 (1997): 2758-2765.
+
+> Shiryaev, Albert Nikolaevich, and Alʹbert N. Širjaev. Probability. Vol. 95. Springer Verlag, 1984.
