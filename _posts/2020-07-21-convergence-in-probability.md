@@ -50,8 +50,10 @@ $$
 \lim_{n \rightarrow \infty} \mathbb{E}(Y_n-c)^2 = 0,
 $$
 
-because given $$\epsilon > 0$$, then
+because given $$\epsilon > 0$$,
 
 $$
 \mathbb{P}(|Y_n - c|\geq \epsilon) \leq \frac{1}{\epsilon^2} \mathbb{E}(Y_n-c)^2.
 $$
+
+All of this was to show you what is happening behind the scenes when we say that the sample average converges to the theoretical average. And when you read that an average converges to a constant, you understand that behind the scenes there may be a convergence in probability.
