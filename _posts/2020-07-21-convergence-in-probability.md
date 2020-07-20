@@ -43,3 +43,13 @@ $$
 $$
 
 As notation we use $$ Y_n \xrightarrow{\mathbb{P}} c $$ to say that $$ Y_n $$ converges in probability to a constant $$ c $$.
+
+So, roughly speaking, when we say that $$ Y_n $$ converges in probability to a constant $$ c $$, we mean that when $$n$$ is large, the probability is high that $$Y_n$$ be close to $$c$$.
+
+A sufficient condition for $$ Y_n \xrightarrow{\mathbb{P}} c $$ is that
+
+$$
+\lim_{n \rightarrow \infty} \mathbb{E}(Y_n-c)^2 = 0,
+$$
+
+because given $$ \epsilon > 0 $$, $$ \mathbb{P}(|Y_n - c|\geq \epsilon) \leq \frac{1}{\epsilon^2} \mathbb{E}(Y_n-c)^2.$$
