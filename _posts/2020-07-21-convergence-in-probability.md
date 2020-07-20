@@ -1,5 +1,5 @@
 ---
-title: "what about convergence in probability"
+title: "what about convergence in probability?"
 date: 2020-07-21
 tags: [probability, statistic, theorem, theory]
 header:
@@ -60,4 +60,4 @@ I see ya in the next post, or on [twitter](http://twitter.com/scpatricio){:targe
 
 > Schölkopf, Bernhard, et al. "Comparing support vector machines with Gaussian kernels to radial basis function classifiers." IEEE transactions on Signal Processing 45.11 (1997): 2758-2765.
 
-> Shiryaev, Albert N. Probability-1. Springer, 1984.
+> Shiryaev, Albert N. Probability-1. Springer, 2016.
