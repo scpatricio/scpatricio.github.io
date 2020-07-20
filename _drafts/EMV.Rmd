@@ -1,0 +1,20 @@
+---
+title: "essa é a convergencia em probabilidade"
+author: "Silvio C. Patricio"
+date: "7/20/2020"
+output: html_document
+---
+
+Se voce já teve o mínimo de contato com estatística, ou probabilidade, já ouviu alguém comentar sobre a lei dos grandes números. Mas se voce nunca ouviu falar sobre essa lei, eu te conto: 
+
+...
+descrever a lei dos grandes numeros
+...
+
+Essa lei é amplamente utilizada, e bem simples de entender. Mas o porquê dessa convergência acontecer talvez não seja tão óbvio assim. Para entender, é preciso conhecer um pouquinho sobre dois topos de convergencias estocásticas: a convergencia em probabilidade e a convergencia quase-certa (ou em lei), mas neste post vou me restringir apenas a convergencia em probabilidade.
+
+Há algumas semanas apresentei o paper _Comparing support vector machines with Gaussian kernels to radial basis function classifiers_ em um webinar sobre Support Vector Machine (SVM). Nesse paper, para garantir algumas condições necessárias na teoria de aprendizado estatístico, Schölkopf fez o uso da lei dos grandes números e também de algumas propriedades derivada da convergencia em probabilidade. E quando comentei isso, percebi que opúblico não tinha muita femiliariadade com esse tipo de teoria, e que talvez fosse necessários apresenta-la.
+
+Então neste post, eu vou te explicar o que é a convergencia em probabilidade e como ela funciona, da maneira mais simples possível. Então vamos lá:
+
+

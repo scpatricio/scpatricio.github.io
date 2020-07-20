@@ -14,7 +14,7 @@ header:
 
   - PANARO, R. V. ; LIMA, A. S. ; **PATRICIO, S. C.** . Semiparametric Survival Analysis via Bernstein Polynomials. In: _Anais do IV Seminário Internacional de Estatística com R_, v. 4, ISSN: 2526-7299, 2019.
 
-  - LIMA, A. S. ;**PATRICIO, S. C.** ; SILVA, L. A. C. ; PANARO, R. V. . Ensemble Classifier: A Nonparametric Approach Applied to Diabetes Detection. In: _Anais do IV Seminário Internacional de Estatística com R_, v. 4, ISSN: 2526-7299, 2019. (link)
+  - LIMA, A. S. ;**PATRICIO, S. C.** ; SILVA, L. A. C. ; PANARO, R. V. . Ensemble Classifier: A Nonparametric Approach Applied to Diabetes Detection. In: _Anais do IV Seminário Internacional de Estatística com R_, v. 4, ISSN: 2526-7299, 2019.
 
   - **PATRICIO, S. C.** ; SARNAGLIA , A. J. Q. . Segmented regression analysis for autocorrelated data with VO2 plateau determination application. In: _Anais da Jornada de Iniciação Científica_, v. 9, ISSN: 2357-7746, 2018
 
