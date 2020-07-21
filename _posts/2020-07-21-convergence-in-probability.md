@@ -48,7 +48,7 @@ As notation we use $$ Y_n \xrightarrow{\mathbb{P}} c $$ to say that $$ Y_n $$ co
 
 There are several tricks to demonstrate that a random variable sequence converges in probability to a constant, and [Chebyshev inequality](https://en.wikipedia.org/wiki/Chebyshev%27s_inequality){:target="_blank" rel="noopener"} is often useful. But I will not go into many technical details, because that is not the purpose of this post.
 
-All of this was to show you what is happening behind the scenes when we say that the sample average converges to the theoretical mean. And when you read that a random sequence converges to a constant, you understand that behind the scenes there may be a convergence in probability.
+All of this was to show you what is happening behind the scenes when we say that the sample average converges to the theoretical mean. And when you read that a sequence of random variables converges to a constant, you understand that behind the scenes there may be a convergence in probability.
 
 I see ya in the next post, or on [twitter](http://twitter.com/scpatricio){:target="_blank" rel="noopener"}.
 
