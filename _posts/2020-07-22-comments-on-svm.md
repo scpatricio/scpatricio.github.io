@@ -1,5 +1,5 @@
 ---
-title: "comments on SVM?"
+title: "comments on SVM"
 date: 2020-07-21
 tags: [probability, theory, svm, statistical learning]
 header:
