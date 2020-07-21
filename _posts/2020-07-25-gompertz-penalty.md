@@ -1,10 +1,10 @@
 ---
-title: "penalizing mortality"
+title: "is there any Makeham here?"
 date: 2020-07-25
 tags: [probability, theory, modeling, mortality]
 header:
-  image: "/images/svm_stat_theory/cover.jpeg"
-excerpt: "what happens if I penalize the likelihood function in a mortality model?"
+  image: "/images/mortality/cover.jpg"
+excerpt: "how can the likelihood function penalty help in mortality modeling?"
 mathjax: "true"
 ---
 
