@@ -28,11 +28,11 @@ $$
 \lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} \frac{1}{n} = 0,
 $$
 
-or we can say that for all $$ \epsilon >0 $$ there's $$ n_0 $$ such that $$ n > n_0 $ implies $$ |a_n - 0| < \epsilon $$. That is, for $$ n $$ large enough, $$ a_n $$ will be as close to $$ 0 $$ as you want.
+or we can say that for all $$ \epsilon >0 $$ there's $$ n_0 $$ such that $$ n > n_0 $$ implies $$ |a_n - 0| < \epsilon $$. That is, for $$ n $$ large enough, $$ a_n $$ will be as close to $$ 0 $$ as you want.
 
-When we talk about convergence of random variables, the idea behind this convergence is the same behind the previous one, except for one small detail: a random variable is a function that takes elements of the sample space ($$\Omega$$) to the real numbers ($$\mathbb{R}$$), it is not a fixed value . For this reason we need a measure in order to calculate the limit, and for that we use the probability measure ($$\mathbb{P}$$), which takes the elements of the sample space to values in the range $$[0.1]$$.
+When we talk about convergence of random variables, the idea behind this convergence is the same behind the previous one, except for one small detail: a random variable is a function that takes elements of the sample space ($$\Omega$$) to the real numbers ($$\mathbb{R}$$). It is not a fixed value . For this reason we need a measure in order to calculate the limit, and for that we use the probability measure ($$\mathbb{P}$$), which takes the elements of the sample space to values in the range $$[0.1]$$.
 
-Now let me show you the formal definition of convergence in probability. A sequence of random variables $$Y_n$$ is said to converge to a constant $$c$$ _in probability_ if for ever $$ \epsilon >0 $$,
+Now let me show you a formal definition of convergence in probability. A sequence of random variables $$Y_n$$ is said to converge to a constant $$c$$ _in probability_ if for ever $$ \epsilon >0 $$,
 
 $$
 \lim_{n \rightarrow \infty} \mathbb{P}(|Y_n - c|<\epsilon) = 1,
@@ -44,7 +44,7 @@ $$
 \lim_{n \rightarrow \infty} \mathbb{P}(|Y_n - c|\geq \epsilon) = 0.
 $$
 
-As notation we use $$ Y_n \xrightarrow{\mathbb{P}} c $$ to say that $$ Y_n $$ converges in probability to a constant $$ c $$. So, roughly speaking, whenwhen we say that, we mean that when $$n$$ is large, the probability is high that $$Y_n$$ be close to $$c$$.
+As notation we use $$ Y_n \xrightarrow{\mathbb{P}} c $$ to say that $$ Y_n $$ converges in probability to a constant $$ c $$. So, roughly speaking, when we say that, we mean that when $$n$$ is large, the probability is high that $$Y_n$$ be close to $$c$$.
 
 There are several tricks to demonstrate that a random variable sequence converges in probability to a constant, and [Chebyshev inequality](https://en.wikipedia.org/wiki/Chebyshev%27s_inequality){:target="_blank" rel="noopener"} is often useful. But I will not go into many technical details, because that is not the purpose of this post.
 
