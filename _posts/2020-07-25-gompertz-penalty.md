@@ -1,6 +1,6 @@
 ---
 title: "penalizing mortality"
-date: 2020-07-23
+date: 2020-07-25
 tags: [probability, theory, modeling, mortality]
 header:
   image: "/images/svm_stat_theory/cover.jpeg"
