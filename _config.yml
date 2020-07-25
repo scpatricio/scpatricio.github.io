@@ -96,7 +96,7 @@ author:
   name             : "scpatricio"
   avatar           : "images/bio_photo.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "spreader of statistics"
-  location         : "Belo Horizonte, Brazil"
+  location         : "Around"
   email            : #"silviocabralpatricio@msn.com"
   links:
     - label: "Email"
