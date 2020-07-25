@@ -7,7 +7,7 @@ header:
 
 So, I'm Silvio, statistician, data scientist and Ph.D. student, with skills in statistical learning, probability, and statistical modeling. My main projects are on this website, and involve problems with the classification and segmentation of images and music, using statistical and machine learning techniques.
 
-### what have you researched so far?
+### what kind of research have I done so far?
 The main researches I developed was during the master's degree, where, in my master's thesis, I studied and compared some methods for modeling mortality, such as: least squares and weighted least squares method, and Poisson and Binomial Negative regressions .
 
 I compared the performance of these modeling methods in the Gompertz, Gompertz-Makeham, Gamma-Gompertz and Gamma-Gompetz-Makeham mortality models. I also proposed two new mortality models, based on mixture models, where one of these allows the existence of a plateau for mortality.
