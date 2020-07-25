@@ -8,7 +8,7 @@ header:
 
   - **PATRICIO, S. C.**; QUEIROZ, A. J. . The plateau of oxygen uptake in exercise physiology: a segmented regression estimation for autocorrelated data.
 
-  - CASTELLARES, F.; **PATRICIO, S. C.**; LEMONTE, A; QUEIROZ, B. L. . On closed-form ex- pressions to Gompertz–Makeham life expectancy. _Theoretical Population Biology_(2020)
+  - CASTELLARES, F.; **PATRICIO, S. C.**; LEMONTE, A; QUEIROZ, B. L. . On closed-form expressions to Gompertz–Makeham life expectancy. _Theoretical Population Biology_(2020)
 
   - **PATRICIO, S. C.** ; PANARO, R. V. ; LIMA, A. S. ; SILVA, P. V. . Change Point Estimation in Segmented Regression Model Using Rstan: An Application to Exercise Physiology Data. In: _Anais do IV Seminário Internacional de Estatística com R_, v. 4, ISSN: 2526- 7299, 2019.
 
@@ -22,4 +22,4 @@ header:
 
 
 ### Awards
-Data Battle Itaú (Brazil) - 70% of surgical procedures would not need to be performed. Salus proposes a decision-making aid system for managers of public hospitals regarding the prioritization and choice of breast cancer treatments.
+Data Battle Itaú (Brazil) - 70% of surgical procedures would not need to be performed. SALUS proposes a decision-making aid system for managers of public hospitals regarding the prioritization and choice of breast cancer treatments.

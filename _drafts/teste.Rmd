@@ -7,69 +7,8 @@ output:
     keep_md: true
 ---
 
+Oi de novo. Como prometido na minha ultima postagem, estou aqui para mostrar uma aplicação do modelo regressão Bell para estimar a mortalidade e, claro, comparar com o modelo regressão Poisson, que vem sendo usada há anos. Então mãos a obra.
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+Escolhi os dados de mortalidade da Alamanha em 1950, para fazermos essa aplicação. Eu consegui usar os dados com o pacote 
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-library(plotly)
-
-a = 5
-b = 2
-
-set.seed(1)
-x_ = rnorm(1000, a, sd = b)
-
-hist(x_)
-
-L = function(theta){
-  a = theta[1]
-  b = theta[2]
-  return(sum(dnorm(x_, a, b, log = T)))
-}
-
-eps = .5
-
-x <- seq(mean(x_)-eps, mean(x_)+eps, length.out = 100)
-y <-  seq(sd(x_)-eps, sd(x_)+eps, length.out = 100)
-z = matrix(NA, 100, 100)
-for(i in 1:length(x)){
-  for(j in 1:length(y)){
-    z[i,j] = L(c(x[i], y[j]))
-  }
-}
-
-z[abs(z) == Inf] = NA
-
-a = x
-b = y
-log_lik = z
-
-fig <- plot_ly(x = ~a, y = ~b, z = ~log_lik)  %>% 
-  layout(
-    scene = list(
-      xaxis = list(title = "a"),
-      yaxis = list(title = "b"),
-      zaxis = list(title = "log-likelihood function")
-    )) %>%
-  add_surface() 
-
-fig 
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

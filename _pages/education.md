@@ -5,8 +5,7 @@ header:
   image: "/images/degree.jpeg"
 ---
 
-### PhD Student
-I'm currently a Ph.D. student at the European Doctoral School of Demography, at the Center for Demographic Studies at Universitat Autònoma de Barcelona (Spain).
+I'm currently a student at the European Doctoral School of Demography, at the Center for Demographic Studies at Universitat Autònoma de Barcelona.
 
 ### Master's degree
 I've a Masters in Statistics from the Federal University of Minas Gerais (Brazil), and I presented my thesis _Mortality Modeling_, under the supervision of professors Bernardo Queiroz and Fredy Castellares. The thesis was examined by the professors Wagner Barreto (King Abdullah University of Science and Technology) and Fábio Demarqui (Federal University of Minas Gerais).
