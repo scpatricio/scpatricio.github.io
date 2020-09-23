@@ -6,13 +6,13 @@ main:
     url: /publications/
   - title: "education"
     url: /education/
-  - title: "rn00bs"
-    url: "https://www.rn00bs.com.br"
+  # - title: "rn00bs"
+  #   url: "https://www.rn00bs.com.br"
   - title: "CV"
     url: "/cv/ResumeOnePage.pdf"
   # - title: "projects"
   #   url: /projects/
   # - title: "blog"
   #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+   - title: "Sitemap"
+     url: /sitemap/
