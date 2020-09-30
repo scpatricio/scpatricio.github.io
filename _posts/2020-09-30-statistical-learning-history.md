@@ -8,7 +8,7 @@ excerpt: "did you know that statistical learning started in the 19th century?"
 mathjax: "true"
 ---
 
-A few weeks ago I started reading The Elements of Statistical Learning again, a book that I think is the best one to start really venturing into the world of statistical learning. And then I came across the history of statistical learning. I thought the story of how it all started and the first method presented in the 19th century was fantastic, and I thought “man, people need to know that”. And here I am, to share this story and also a little bit about the method that is considered as the first statistical learning method. Let's do it.
+A few weeks ago I started reading [The Elements of Statistical Learning](http://web.stanford.edu/~hastie/Papers/ESLII.pdf){:target="_blank" rel="noopener"} again, a book that I think is the best one to start really venturing into the world of statistical learning. And then I came across the history of statistical learning. I thought the story of how it all started and the first method presented in the 19th century was fantastic, and I thought “man, people need to know that”. And here I am, to share this story and also a little bit about the method that is considered as the first statistical learning method. Let's do it.
 
 
 
