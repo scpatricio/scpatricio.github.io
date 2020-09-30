@@ -1,10 +1,10 @@
 ---
-title: "did you know that statistical learning started in the 19th century?"
+title: "the first statistical learning technique"
 date: 2020-09-30
 tags: [statistic, statistical learning]
 header:
   image: "/images/rhistory/LSM.jpg"
-excerpt: "the first statistical learning method"
+excerpt: "did you know that statistical learning started in the 19th century?"
 mathjax: "true"
 ---
 
