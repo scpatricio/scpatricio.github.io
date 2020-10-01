@@ -1,6 +1,6 @@
 ---
 title: "the first statistical learning technique"
-date: 2020-09-30
+date: 2020-10-01
 tags: [statistic, statistical learning]
 header:
   image: "/images/rhistory/LSM.jpg"
