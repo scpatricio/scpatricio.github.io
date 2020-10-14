@@ -4,10 +4,12 @@ date: 2020-10-15
 tags: [likelihood, statistic, fisher information]
 header:
   image: "/images/likelihood/head.jpeg"
-excerpt: "here is some information about Fisher's Information"
+excerpt: "here is some information about Fisher Information"
 mathjax: "true"
 ---
-Hi you! Here I'm going to talk to you a little bit about Fisher's Information. If you're reading this post, I'm sure you've heard of it, and can now appreciate the beautiful classic theory of mathematical statistics about the likelihood function. But let's not lose focus, and let's talk about Fisher's Information. For starters, do you know what formula is down here?
+Hi you! Here I'm going to talk to you a little bit about Fisher Information. If you're reading this post, I'm sure you've heard of it, and can now appreciate the beautiful classic theory of mathematical statistics about the likelihood function. But let's not lose focus, and let's talk about Fisher Information.
+
+For begin with, do you know what formula is down here?
 
 $$
 \mathbb{E}\left[ \left( \frac{\partial \log f(X|\theta)}{\partial \theta} \right)^2 \right]
@@ -19,7 +21,13 @@ $$
 -\mathbb{E}\left[ \frac{\partial^2 \log f(X|\theta)}{\partial \theta^2} \right]
 $$
 
-If you said Fisher Information, you were right. And if you don't know that, I would like to tell you that this amount is the infamous Fisher's Information, and that's what I'm going to talk about here.
+If you said Fisher Information, you were right. And if you don't know that, I would like to tell you that this quantity is the infamous Fisher Information, and that's what I'm going to talk about here. And I will try my best not to show more formulas, because I know it scares people (even though I love it).
+
+The Fisher Information is an important quantity in Mathematical Statistics, which plays a fundamental role in classical statistics, especially in the asymptotic theory of Maximum-Likelihood Estimation, and in the Cramér-Rao loer bound (I will make a post just about that).
+
+Informally, Fisher Information provides a measure of the amount of "information" that a random variable carries over a parameter $$ \ theta $$. More formally, the Fisher Information is the variance of the score function (I will also post about it).
+
+
 
 I see ya in the next post, or on [twitter](http://twitter.com/scpatricio){:target="_blank" rel="noopener"}.
 
