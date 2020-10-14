@@ -13,6 +13,14 @@ $$
 \mathbb{E}\left[ \left( \frac{\partial \log f(X|\theta)}{\partial \theta} \right)^2 \right]
 $$
 
+Maybe that way you don't recognize it, but maybe that makes more sense.
+
+$$
+-\mathbb{E}\left[ \frac{\partial^2 \log f(X|\theta)}{\partial \theta^2} \right]
+$$
+
+If you said Fisher Information, you were right. And if you don't know that, I would like to tell you that this amount is the infamous Fisher's Information, and that's what I'm going to talk about here.
+
 I see ya in the next post, or on [twitter](http://twitter.com/scpatricio){:target="_blank" rel="noopener"}.
 
 ### References
