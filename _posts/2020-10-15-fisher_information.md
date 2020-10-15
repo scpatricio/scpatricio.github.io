@@ -31,13 +31,7 @@ In [this post](https://scpatricio.github.io/likelihood/){:target="_blank" rel="n
 
 We usually find $$\theta$$ by equating the first derivative of the log-likelihood function to zero and solving the equation. And to know how accurate the MLE is, we need to look at the curvature of the log-likelihood function around its maximum point, because if this function has a strong and accentuated curvature it would have a high negative expected second derivative and therefore a larger Fisher Information, which indicates more information through $$\mathbf{X}$$ about $$\theta$$.
 
-
-
-
-
-
-
-
+I hope you understand a little more about Fisher Information and how we should interpret it, as it plays a key role in statistics and appears in many asymptotic analysis (due to what is known as the Laplace approximation). Finally, remember that this quantity is directly linked to the amount of information that the sample brings about the parameter, which will directly reflect on the variance of the estimate.
 
 I see ya in the next post, or on [twitter](http://twitter.com/scpatricio){:target="_blank" rel="noopener"}.
 
@@ -48,3 +42,5 @@ I see ya in the next post, or on [twitter](http://twitter.com/scpatricio){:targe
 > Casella, George, and Roger L. Berger. Statistical inference. Vol. 2. Pacific Grove, CA: Duxbury, 2002.
 
 > DUDEWICZ, Edward J.; MISHRA, Satya. Modern mathematical statistics. John Wiley & Sons, Inc., 1988.
+
+>  Ly A, Marsman M, Verhagen J, Grasman RP, Wagenmakers EJ. A tutorial on Fisher information. Journal of Mathematical Psychology. 2017.
