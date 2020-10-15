@@ -27,7 +27,9 @@ The Fisher Information is an important quantity in Mathematical Statistics, whic
 
 Informally, Fisher Information provides a measure of the amount of "information" that a random variable carries over a parameter $$ \theta $$. More formally, the Fisher Information is the variance of the score function (I will also post about it).
 
-In [this post](https://scpatricio.github.io/likelihood/){:target="_blank" rel="noopener"} I commented on the likelihood function and why we maximize it to obtain an estimate of unknown parameters, also known as MLE. Now let's go back to this post. The log-likelihood is a function of $$\theta$$, and is random because it depends on $$\mathbf{X}$$
+In [this post](https://scpatricio.github.io/likelihood/){:target="_blank" rel="noopener"} I commented on the likelihood function and why we maximize it to obtain an estimate of unknown parameters, also known as MLE. Now let's go back to this post. The log-likelihood is a function of $$\theta$$, and is random because it depends on $$\mathbf{X}$$, and we would like to find an unique maximum by locating the value of $$ \theta $$ that maximizes the log-likelihood function. We usually find $$\theta$$ by equating the first derivative of the log-likelihood function to zero, and solving this equation.
+
+
 
 
 
