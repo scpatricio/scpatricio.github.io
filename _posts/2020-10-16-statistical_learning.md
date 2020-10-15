@@ -1,5 +1,5 @@
 ---
-title: "the beginnings of statistical learning"
+title: "the cornerstones of statistical learning"
 date: 2020-10-16
 tags: [statistic, statistical learning]
 header:
@@ -13,7 +13,7 @@ In the early 19th century, Legendre and Gauss published articles on the least sq
 
 In 1936, Fisher proposed a linear discriminant analysis, which can be used to predict qualitative values, such as whether a patient survives or dies, or whether the stock market increases or decreases (Fisher is the guy, right?). And in the 1940s, several guys proposed logistic regression as an alternative to linear discriminant analysis, which today is often sold as a _revolutionary machine learning technique_.
 
-In 1972, Nelder and Wedderburn proposed generalized linear models (GLM) for an entire class of statistical learning methods that include linear regression, logistics and Poisson as special cases. In the same decade, several other techniques were proposed, but these were almost exclusively linear methods. In the following decade, due to the advancement of computational technology, Breiman, Friedman, Olshen and Stone presented classification and regression trees (CART) and cross-validation for model selection.
+In 1972, Nelder and Wedderburn proposed the generalized linear models (GLM) for an entire class of statistical learning methods that include linear regression, logistics and Poisson as special cases. In the same decade, several other techniques were proposed, but these were almost exclusively linear methods. In the following decade, due to the advancement of computational technology, Breiman, Friedman, Olshen and Stone presented classification and regression trees (CART) and cross-validation for model selection.
 
 Since then, statistical learning has emerged as a _new_ field of statistics, with a focus on modeling and forecasting. And in recent years, progress in statistical learning has been marked by increased computing power and also by the increasing availability of powerful software and high-level programming languages ​​like Phyton and R.
 
