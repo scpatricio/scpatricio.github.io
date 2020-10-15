@@ -1,9 +1,9 @@
 ---
-title: "the cornerstones of statistical learning"
+title: "the new old statistical learning"
 date: 2020-10-17
 tags: [statistic, statistical learning]
 header:
-  image: "/images/rhistory/LSM.jpg"
+  image: "/images/rhistory/LSM1.jpg"
 excerpt: "the new statistical learning techniques are not as new as they told you"
 mathjax: "true"
 ---
