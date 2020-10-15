@@ -12,7 +12,9 @@ A few weeks ago I started reading [The Elements of Statistical Learning](http://
 
 As I commented in this post, the first statistical learning method was presented by Legendre. He was honored with the first publication of this method, in his work called _Nouvelles methodses pour la determination des orbites des cometes_, published in Paris in 1805. As the name of the work suggests, Legendre used the least squares method to determine the orbit of comets. At the time, this method was an inventor, and its value was immediately recognized by the leading astronomers and geodesists of the time.
 
+But 4 years after the first clear and concise exposition of the least squares method, Carl Friedrich Gauss published his method of calculating the orbits of celestial bodies, where he claimed to have the least squares method since 1795. However, in this publication Gauss managed to connect the least squares method to the principles of probability and normal distribution.
 
+In his work, Gauss also specified a mathematical form of the probability density for the observations, depending on a finite number of unknown parameters, and defined an estimation method that minimizes the estimation error. Today we can address the same problem by maximizing likelihood, assuming that the estimation error has a normal distribution and thus enjoys consistency, functional invariance, efficiency and asymptotic normality, which are some of the properties of Maximum-Likelihood Estimation.
 .
 
 .
