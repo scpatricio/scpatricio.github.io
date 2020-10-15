@@ -17,12 +17,8 @@ But 4 years after the first clear and concise exposition of the least squares me
 In his work, Gauss also specified a mathematical form of the probability density for the observations, depending on a finite number of unknown parameters, and defined an estimation method that minimizes the estimation error. Today we can address the same problem by maximizing the log-likelihood function, assuming that the estimation error has a normal distribution and thus enjoys consistency, functional invariance, efficiency and asymptotic normality, which are some of the properties of Maximum-Likelihood Estimation.
 
 However, the least squares method was only related to linear regression analysis in 1822, when Gauss was able to affirm that the approach of this method for this type of analysis provides the best results in the sense that in a linear model where errors have mean zero and are independent (uncorrelated) and with the same variance. Since then, researchers in error theory and statistics have found many different ways to implement this method.
-.
 
-.
-
-.
-
+After all this, it is clear that the least squares method is very old and, despite this, it is still widely used today for supervised and unsupervised learning problems. Even used as a loss function for deep neural network models, which are the most powerful and current methods of machine learning.
 
 I have to confess that for me this wave of data science that we are experiencing now, is nothing more than the popularization of various statistical methods that were created centuries ago. And this is great, because now we have more people interested in developing and improving statistical techniques, which results in a boom in the development of this science.
 
