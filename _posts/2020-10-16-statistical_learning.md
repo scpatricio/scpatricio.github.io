@@ -1,6 +1,6 @@
 ---
 title: "the cornerstones of statistical learning"
-date: 2020-10-16
+date: 2020-10-17
 tags: [statistic, statistical learning]
 header:
   image: "/images/rhistory/LSM.jpg"
