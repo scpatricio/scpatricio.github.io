@@ -1,6 +1,6 @@
 ---
 title: "the new old statistical learning"
-date: 2020-10-17
+date: 2020-10-15
 tags: [statistic, statistical learning]
 header:
   image: "/images/rhistory/LSM1.jpg"

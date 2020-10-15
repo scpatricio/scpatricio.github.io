@@ -1,6 +1,6 @@
 ---
 title: "the cornerstones of statistical learning"
-date: 2020-10-01
+date: 2020-10-16
 tags: [statistic, statistical learning]
 header:
   image: "/images/rhistory/LSM2.jpg"
@@ -10,14 +10,8 @@ mathjax: "true"
 
 A few weeks ago I started reading [The Elements of Statistical Learning](http://web.stanford.edu/~hastie/Papers/ESLII.pdf){:target="_blank" rel="noopener"} again, a book that I think is the best one to start really venturing into the world of statistical learning. And then I came across the history of statistical learning. I thought the story of how it all started and the first method presented in the 19th century was fantastic, and I thought “man, people need to know that”. And here I am, to share this story and also a little bit about the method that is considered as the first statistical learning method. Let's do it.
 
+As I commented in this post, the first statistical learning method was presented by Legendre. He was honored with the first publication of this method, in his work called _Nouvelles methodses pour la determination des orbites des cometes_, published in Paris in 1805. As the name of the work suggests, Legendre used the least squares method to determine the orbit of comets. At the time, this method was an inventor, and its value was immediately recognized by the leading astronomers and geodesists of the time.
 
-.
-
-.
-
-.
-
-WRITE HISTORY
 
 .
 
@@ -34,6 +28,7 @@ I see ya in the next post, or on [twitter](http://twitter.com/scpatricio){:targe
 
 ### References
 
-> Fox, John. 2009. “Aspects of the Social Organization and Trajectory of the R Project.” The R Journal 1 (2): 5–13.
-
-> Ihaka, Ross, and Robert Gentleman. 1996. “R: A Language for Data Analysis and Graphics.” Journal of Computational and Graphical Statistics 5 (3): 299–314.
+> Friedman, Jerome, Trevor Hastie, and Robert Tibshirani. The elements of statistical learning. Vol. 1. No. 10. New York: Springer series in statistics, 2001.
+APA
+> Merriman, Mansfield. "On the history of the method of least squares." The Analyst 4.2 (1877): 33-36.
+APA
