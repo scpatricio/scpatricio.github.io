@@ -1,6 +1,6 @@
 ---
 title: "Fisher InformWHAT?"
-date: 2020-10-15
+date: 2020-10-14
 tags: [likelihood, statistic, fisher information]
 header:
   image: "/images/likelihood/head.jpeg"
