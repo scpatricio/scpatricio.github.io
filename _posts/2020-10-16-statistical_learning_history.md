@@ -17,7 +17,7 @@ In 1972, Nelder and Wedderburn proposed the generalized linear models (GLM) for 
 
 Since then, statistical learning has emerged as a _new_ field of statistics, with a focus on modeling and forecasting. And in recent years, progress in statistical learning has been marked by increased computing power and also by the increasing availability of powerful software and high-level programming languages, ​​like Phyton and R.
 
-Finally, I would like you to take a look [here](https://leandromineti.github.io/ml-timeline/){:target="_blank" rel="noopener"}, to see the timeline of machine learning and statistical learning techniques. Do you still think that statistical learning techniques (or even machine learning techniques) are as new as people really tell you? Or are people just now discovering these techniques?
+Finally, I would like you to take a look [here](https://leandromineti.github.io/ml-timeline/){:target="_blank" rel="noopener"}, to see the timeline of machine learning and statistical learning techniques (a beautiful visualization made by [this guy](https://github.com/leandromineti){:target="_blank" rel="noopener"}). Do you still think that statistical learning techniques (or even machine learning techniques) are as new as people really tell you? Or are people just now discovering these techniques?
 
 I see ya in the next post, or on [twitter](http://twitter.com/scpatricio){:target="_blank" rel="noopener"}.
 
