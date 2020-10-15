@@ -4,7 +4,7 @@ date: 2020-10-15
 tags: [likelihood, statistic, fisher information]
 header:
   image: "/images/likelihood/head.jpeg"
-excerpt: "here is some information about Fisher Information"
+excerpt: "here are cool things about Fisher Information"
 mathjax: "true"
 ---
 Hi you! Here I'm going to talk to you a little bit about Fisher Information. If you're reading this post, I'm sure you've heard of it, and can now appreciate the beautiful classic theory of mathematical statistics about the likelihood function. But let's not lose focus, and let's talk about Fisher Information.
