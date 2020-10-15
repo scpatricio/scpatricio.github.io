@@ -23,9 +23,11 @@ $$
 
 If you said Fisher Information, you were right. And if you don't know that, I would like to tell you that this quantity is the infamous Fisher Information, and that's what I'm going to talk about here. And I will try my best not to show more formulas, because I know it scares people (even though I love it).
 
-The Fisher Information is an important quantity in Mathematical Statistics, which plays a fundamental role in classical statistics, especially in the asymptotic theory of Maximum-Likelihood Estimation, and in the Cramér-Rao loer bound (I will make a post just about that).
+The Fisher Information is an important quantity in Mathematical Statistics, which plays a fundamental role in classical statistics, especially in the asymptotic theory of Maximum-Likelihood Estimation (MLE), and in the Cramér-Rao loer bound (I will make a post just about that).
 
-Informally, Fisher Information provides a measure of the amount of "information" that a random variable carries over a parameter $$ \ theta $$. More formally, the Fisher Information is the variance of the score function (I will also post about it).
+Informally, Fisher Information provides a measure of the amount of "information" that a random variable carries over a parameter $$ \theta $$. More formally, the Fisher Information is the variance of the score function (I will also post about it).
+
+In [this post](https://scpatricio.github.io/likelihood/){:target="_blank" rel="noopener"} I commented on the likelihood function and why we maximize it to obtain an estimate of unknown parameters, also known as MLE. Now let's go back to this post. The log-likelihood is a function of $$\theta$$, and is random because it depends on $$X$$
 
 
 
