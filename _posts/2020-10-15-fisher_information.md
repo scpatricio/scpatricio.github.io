@@ -1,5 +1,5 @@
 ---
-title: "Fisher Informwhat??"
+title: "Fisher InformWHAT?"
 date: 2020-10-15
 tags: [likelihood, statistic, fisher information]
 header:
