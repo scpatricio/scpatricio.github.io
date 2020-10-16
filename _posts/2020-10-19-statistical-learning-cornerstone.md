@@ -4,7 +4,7 @@ date: 2020-10-16
 tags: [statistic, statistical learning]
 header:
   image: "/images/rhistory/LSM2.jpg"
-excerpt: "did you know that statistical learning started in the 19th century?"
+excerpt: "a 19th century gossip"
 mathjax: "true"
 ---
 
