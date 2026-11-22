@@ -54,6 +54,7 @@ nav { font-size: .94rem; }
   border: 1px solid #e0e6f1;
   border-radius: 1rem;
 }
+.profile-logo { display: block; border-radius: .65rem; margin-block-end: 1rem; }
 .profile h1, .profile-name {
   font-size: clamp(1.65rem, 2.65vw, 2.5rem);
   white-space: nowrap;
